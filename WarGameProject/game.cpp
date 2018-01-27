@@ -143,7 +143,7 @@ Game::Game()
 	this->loadFonts();
 	this->loadStylesheets();
 
-	this->window.create(sf::VideoMode(800, 600), "WarGame Project");
+	this->window.create(sf::VideoMode(800, 600), "CityBuilder Project");
 	this->window.setFramerateLimit(60);
 
 	this->background.setTexture(this->texmgr.getRef("background"));
